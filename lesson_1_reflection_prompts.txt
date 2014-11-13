@@ -1,0 +1,57 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Indem das Ergebnis von diff nur die Stellen in den Dateien zeigt und einander
+    gegenüberstellt, die sich unterscheiden, erübrigt es sich den Rest der Dateien
+    zu vergleichen und normalerweise ist der Rest der viel größere Teil der Dateien.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    Die Softwareentwicklung kann exakt zurück verfolgt aber auch in verschiedene
+    Richtungen voran getreiben werden, ohne dass die Übersicht verloren geht. Alte
+    Zustände können wieder hergestellt werden, falls die erfolgten Veränderungen
+    nicht zufrieden stellende Resultate produzieren. Experimente mit der Sofware
+    werden vereinfacht und der Kunde kann sicher sein immer eine stabile SW-Version
+    installiert zu haben.
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    pros: 
+    - Logisch zusammen hängende Änderungen können in einem Commit zusammen
+    geführt werden.
+    - Logisch unterschiedliche Änderungen können in verschiedene Commits
+    abgelegt werden.
+    - Die zeitliche Strukturierung kann auch flexibel gehalten werden.
+    cons: 
+    - Das Erstellen von sinnvollen Commits kann vergessen bzw. vernachlässigt
+    werden.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Wenn Änderungen in mehreren Dateien logisch zusammen hängen macht es Sinn
+    sie in einem Commit zu speichern, so dass man nicht erst danach suchen muss
+    welche Dateien und wie zusammen hängen. Dadurch wird das System andererseits
+    natürlich komplexer und ggf. auch langsamer.
+ 
+How can you use the commands git log and git diff to view the history of files?
+    
+    Mit git log kann man sich anzeigen lassen zu welchen Zeitpunkten der Zustand
+    einer Datei gesichert worden ist. Mit git diff kann man dann von dieser Datei
+    zwei beliebige gesicherte Versionen herausgreifen und sich die Unterschiede
+    anzeigen lassen. 
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    Da es mit Versionskontrolle möglich ist ein Programm zurückzusetzen, macht es 
+    wenig aus wenn eine Änderung zu einem Absturz des Progtramms führt. Man hat
+    in jedem Fall noch eine lauffähige Version zur Verfügung.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Versionskontrolle von Programmen.
