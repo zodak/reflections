@@ -1,0 +1,12 @@
+What happens when you initialize a repository? Why do you need to do It?
+
+	An empty Git repository is created. That's the version control directory for
+	the project.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	You put your files into the staging area before you commit them. Das hat den
+	Vorteil, dass man exakt die Dateien ablegen kann die logisch zusammen gehören
+	und die durch das folgende Commit gemeinsam in der Versionskontrolle behandelt
+	werden.
