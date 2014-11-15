@@ -10,3 +10,28 @@ What value do you think it offers?
 	Vorteil, dass man exakt die Dateien ablegen kann die logisch zusammen gehören
 	und die durch das folgende Commit gemeinsam in der Versionskontrolle behandelt
 	werden.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Indem man nur logisch zusammenhängende Änderungen zum staging area hinzufügt.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	Software mit verschiedenen Funktionalitäten für verschiedene Kunden bei gleicher Grundfunktionalität.
+
+	Software für verschiedene Hardwaresysteme wie PC, Tablet, Smartphone u.a.m.
+
+	Software für verschiedene nicht-funtionale Anforderungen wie Robustheit, Wartbarkeit, Verarbeitungsgeschwindigkeit u.a.m.
+
+How do the diagrams help you visualize the branch structure?
+
+	Die Eltern-Kind-Beziehung wird durch Einrücken im Text angezeigt.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Zwei Zweige werden in einem Zweig vereinigt. Man sieht anhand des Diagramms welcher der beiden Zweige fortgesetzt und welcher endet.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	pros: Git nimmt einem die Arbeit ab, wenn es möglich ist.
+	cons: Ggf. ist einem nicht klar was alles verändert wurde.		
